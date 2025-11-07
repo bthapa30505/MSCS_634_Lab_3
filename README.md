@@ -1,8 +1,8 @@
-## Lab Summary
+## # MSCS_634_Lab_3 Summary
 
 ### Purpose of the Lab Work
 
-The purpose of this lab was to implement and compare two prominent clustering algorithms—K-Means and K-Medoids—on the Wine dataset from scikit-learn. The objective was to understand the differences between these algorithms by applying both with k=3 clusters (matching the three wine classes in the dataset), evaluating their performance using silhouette scores and adjusted rand index (ARI), and visualizing the resulting clusters. This comparative analysis helps demonstrate when each algorithm might be more appropriate depending on the characteristics of the dataset, such as the presence of outliers, data distribution, and the need for interpretability versus computational efficiency.
+The purpose of this lab was to implement and compare two prominent clustering algorithms: K-Means and K-Medoids on the Wine dataset from scikit-learn. The objective was to understand the differences between these algorithms by applying both with k=3 clusters (matching the three wine classes in the dataset), evaluating their performance using silhouette scores and adjusted rand index (ARI), and visualizing the resulting clusters. This comparative analysis helps demonstrate when each algorithm might be more appropriate depending on the characteristics of the dataset, such as the presence of outliers, data distribution, and the need for interpretability versus computational efficiency.
 
 ### Key Insights from Clustering Results and Observations
 
@@ -11,4 +11,3 @@ The clustering analysis revealed several important insights. K-Means outperforme
 ### Challenges Faced or Decisions Made During the Lab
 
 Several challenges were encountered and decisions made throughout the implementation process. First, the K-Medoids algorithm required the installation of the scikit-learn-extra package, which was not part of the standard scikit-learn distribution, necessitating additional dependency management. Second, since the Wine dataset has 13 features, dimensionality reduction using PCA was necessary for meaningful 2D visualization, though this projection only captured approximately 55.4% of the total variance, which means the visualizations may not fully represent the cluster separability in the original high-dimensional space.
-# MSCS_634_Lab_3
